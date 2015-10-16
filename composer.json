@@ -1,0 +1,19 @@
+{
+    "name": "oxid-esales/event_logger_demo",
+    "description": "This a demo component which shows how it can be used with OXID eShop modules.",
+    "keywords": ["oxid", "modules"],
+    "homepage": "https://www.oxid-esales.com/en/home.html",
+    "license": [
+      "GPL-3.0"
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+      "psr-4": { "OxidEsales\\EventLoggerDemo\\": "src/EventLoggerDemo" }
+    },
+    "require": {
+        "monolog/monolog": "1.17.1"
+    },
+    "minimum-stability": "stable"
+}
