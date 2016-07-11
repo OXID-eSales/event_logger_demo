@@ -6,9 +6,6 @@ This is a demo component which is used in module: https://github.com/OXID-eSales
 Installation
 ------------
 
-For OXID eShop version >= 4.9.6/5.2.6
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Add these lines to modules/composer.json:
 
 .. code:: json
@@ -33,28 +30,6 @@ Run installation command from modules directory:
   
 For OXID eShop version < 4.9.6/5.2.6
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Create composer.json file in modules directory and add content:
-
-.. code:: json
-
-  {
-    "repositories": {
-        "oxid-esales/event_logger_demo": {
-            "type": "vcs",
-            "url": "https://github.com/OXID-eSales/event_logger_demo.git"
-        }
-    },
-    "require": {
-        "oxid-esales/event_logger_demo": "dev-master"
-    }
-  }
-  
-Run installation command from modules directory:
-
-.. code:: bash
-
-  composer install
   
 Include composer autoloader in modules/functions.php:
 
