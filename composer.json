@@ -3,9 +3,7 @@
     "description": "This a demo component which shows how it can be used with OXID eShop modules.",
     "keywords": ["oxid", "modules"],
     "homepage": "https://www.oxid-esales.com/en/home.html",
-    "license": [
-      "GPL-3.0"
-    ],
+    "license": "GPL-3.0-only",
     "require-dev": {
         "phpunit/phpunit": "4.8.*"
     },
