@@ -11,7 +11,7 @@
       "psr-4": { "OxidEsales\\EventLoggerDemo\\": "src/EventLoggerDemo" }
     },
     "require": {
-        "monolog/monolog": "1.17.1"
+        "monolog/monolog": "^v1.23.0"
     },
     "minimum-stability": "stable"
 }
